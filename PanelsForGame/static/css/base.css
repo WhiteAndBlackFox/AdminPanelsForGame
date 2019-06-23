@@ -1,0 +1,16 @@
+.table_content {
+    width: 100%; /* Ширина таблицы */
+    height: 100%; /* Высота таблицы  */
+    text-align: center; /* Текст по центру */
+    border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+.table_content th {
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+.table_content td {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}

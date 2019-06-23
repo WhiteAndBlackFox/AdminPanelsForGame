@@ -1,0 +1,30 @@
+{% load static %}
+<html>
+    <head>
+        <title>Панель для администрарования</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <h1 style="text-align: center">Панель для администрарования</h1>
+        <table style="width: 100%;">
+            <thead style="text-align: center;">
+                <tr>
+                    <td style="width: 33%"><a href="/personage">Записями о персонажах</a></td>
+                    <td style="width: 33%"><a href="/inventory">Записи об инвентаре персонажа</a></td>
+                    <td style="width: 33%"><a href="/personagetransfer">Перемещения персонажа</a></td>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">
+                    {% block content %}
+
+                    {% endblock %}
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (1, 'Бронешлемы', 1);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (2, 'Шапки', 1);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (3, 'Очки', 1);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (4, 'Маски', 1);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (5, 'Противогазы', 1);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (6, 'Бронежилеты', 6);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (7, 'Жилеты', 6);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (8, 'Куртки', 6);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (9, 'Штаны', 3);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (10, 'Ботинки', 8);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (11, 'Перчатки', 4);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (12, 'Рюкзаки', 3);
+INSERT INTO PanelsForGame_groupgobject (id, name, location_gObject_id) VALUES (14, 'Пистолеты', 3);

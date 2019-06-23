@@ -1,0 +1,11 @@
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (1, 'Бандиты', 6);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (2, 'Барыги', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (3, 'Беженцы', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (4, 'Военные', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (5, 'Наемники', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (6, 'Одиночки', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (7, 'Охотники', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (8, 'Сектанты', 1);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (9, 'Сталкеры', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (10, 'Торговцы', 0);
+INSERT INTO PanelsForGame_fractions (id, name, count) VALUES (11, 'Ученые', 1);

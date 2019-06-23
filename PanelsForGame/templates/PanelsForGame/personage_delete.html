@@ -1,0 +1,12 @@
+{% extends 'PanelsForGame/base.html' %}
+
+{% block content %}
+
+        <h2 style="text-align: center">Удаленеи персонажа</h2>
+
+    <form class="post-form" method="post">{% csrf_token %}
+        <p>Are you sure you want to delete "{{ personagedelete.nick_name }}"?</p>
+        <input type="submit" value="Удалить" />
+    </form>
+
+{%  endblock %}

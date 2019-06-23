@@ -1,0 +1,3 @@
+INSERT INTO PanelsForGame_personagetransfer (id, locations_id, personage_id, date_last_visit) VALUES (1, 5, 3, '2019-06-23 12:31:13.769344');
+INSERT INTO PanelsForGame_personagetransfer (id, locations_id, personage_id, date_last_visit) VALUES (2, 14, 3, '2019-06-23 12:30:54.273024');
+INSERT INTO PanelsForGame_personagetransfer (id, locations_id, personage_id, date_last_visit) VALUES (3, 3, 3, '2019-06-23 12:31:04.361339');

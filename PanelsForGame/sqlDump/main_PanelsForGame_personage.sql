@@ -1,0 +1,9 @@
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (3, '123d', '2019-06-22 15:14:04.975517', '2019-06-23 15:48:19.777051', 0, 1, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (4, '65547g7g65gyt', '2019-06-23 12:07:48.204387', '2019-06-23 12:07:48.204387', 1523, 8, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (5, 'sadadc', '2019-06-23 15:05:36.035510', '2019-06-23 15:05:36.036507', 0, 4, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (6, '65547g7g65gytasdasd', '2019-06-23 15:37:51.548924', '2019-06-23 15:37:51.548924', 0, 11, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (7, '423152134', '2019-06-23 15:39:11.198831', '2019-06-23 15:39:11.199829', 123521, 1, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (8, '351235', '2019-06-23 15:39:28.201996', '2019-06-23 15:39:28.201996', 123521, 1, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (9, '35123555', '2019-06-23 15:40:54.879542', '2019-06-23 15:40:54.879542', 123521, 1, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (10, '351235tgesge', '2019-06-23 15:41:40.829638', '2019-06-23 15:41:40.829638', 123521, 1, 3);
+INSERT INTO PanelsForGame_personage (id, nick_name, date_create, date_last_input, kill_count, fraction_id, user_id) VALUES (11, 'vdfs34', '2019-06-23 15:41:59.800555', '2019-06-23 15:41:59.800555', 123521, 1, 3);

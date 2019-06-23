@@ -1,0 +1,8 @@
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (1, 'Шлем 6Б7', 1, 1.25, 'Шлем 6Б7', 0, null, null, 1, null);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (2, 'Очки защитные ЗП1-80', 1, 0.16, 'Очки защитные ЗП1-80', 0, null, null, 3, null);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (3, 'Очки солнцезащитные большие', 1, 0.002, 'Очки солнцезащитные большие', 0, null, null, 3, null);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (4, 'Косынка', 1, 0.001, 'Для обслуживания могут потребоваться предметы: Старые швейные нитки.
+При недостаточном навыке Вы можете уменьшить значение состояния предмета.', 0, null, null, 4, null);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (5, 'Рюкзак РД-54', 1, 1.7, 'Рюкзак РД-54', 12.5, null, null, 12, null);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (6, 'Glock 17 Gen 2', 1, 0.625, '', 0, 4.8, 1200, 14, 5);
+INSERT INTO PanelsForGame_gameobjects (id, name, lvl, weight, description, load_capacity, grouping, fire_tempo, group_game_object_id, ammo_type_id) VALUES (7, 'Пистолет Макарова', 1, 0, 'Пистолет Макарова', 0.73, 6.6, 400, 14, 8);

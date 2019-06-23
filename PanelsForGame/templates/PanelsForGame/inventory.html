@@ -1,0 +1,32 @@
+{% extends 'PanelsForGame/base.html' %}
+
+{% block content %}
+
+    <h2 style="text-align: center">Запись об инвенторе персонажа</h2>
+
+    <div>
+        <a href="{% url 'inventory_new' %}" class="top-menu"><span style="margin-bottom: 5px;" class="glyphicon glyphicon-plus">Добавить в инвентарь</span></a>
+    </div>
+    <table  class="table_content">
+        <tr>
+            <th>ID персонажа</th>
+            <th>ID предмета</th>
+            <th>Кол-во использований предмета</th>
+            <th>Расположение предмета</th>
+            <th>Действия</th>
+        </tr>
+        {% for inv in inventory %}
+            <tr>
+                <td>{{ inv.personage.id }}</td>
+                <td>{{ inv.gObject.id }}</td>
+                <td>{{ inv.use_count }}</td>
+                <td>{{ inv.location_gObject.name | linebreaksbr }}</td>
+                <td>
+                    <a class="btn btn-default" href="{% url 'inventory_detail' id=inv.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a class="btn btn-default" href="{% url 'inventory_delete' id=inv.id %}"><span class="glyphicon glyphicon-remove"></span></a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{%  endblock %}

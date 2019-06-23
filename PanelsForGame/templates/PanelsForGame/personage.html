@@ -1,0 +1,38 @@
+{% extends 'PanelsForGame/base.html' %}
+
+{% block content %}
+
+    <h2 style="text-align: center">Запись о персонажах</h2>
+    <div>
+        <a href="{% url 'personage_new' %}" class="top-menu"><span style="margin-bottom: 5px;" class="glyphicon glyphicon-plus">Добавить персонажа</span></a>
+    </div>
+    <table class="table_content" >
+        <tr>
+            <th>Имя</th>
+            <th>Клан</th>
+            <th>Дата создания</th>
+            <th>Дата последнего<br>входа в игру</th>
+            <th>Пароль</th>
+            <th>Счетчик убитых противников</th>
+            <th>Действия</th>
+        </tr>
+        {% for personage in personages %}
+            <tr>
+                <td>{{ personage.nick_name }}</td>
+                <td>{{ personage.fraction.name }}</td>
+                <td>{{ personage.date_create }}</td>
+                <td>{{ personage.date_last_input }}</td>
+                <td>{{ personage.user.passwd }}</td>
+                <td>{{ personage.kill_count }}</td>
+                <td>
+                    <a class="btn btn-default" href="{% url 'personage_datail' id=personage.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a class="btn btn-default" href="{% url 'personage_delete' id=personage.id %}"><span class="glyphicon glyphicon-remove"></span></a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{%  endblock %}
+
+
+

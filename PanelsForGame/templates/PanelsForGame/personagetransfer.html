@@ -1,0 +1,29 @@
+{% extends 'PanelsForGame/base.html' %}
+
+{% block content %}
+    <h2 style="text-align: center">Перемещения персонажа</h2>
+
+    <div>
+        <a href="{% url 'personagetransfer_new' %}" class="top-menu"><span style="margin-bottom: 5px;" class="glyphicon glyphicon-plus">Добавить в перемещение</span></a>
+    </div>
+    <table class="table_content">
+        <tr>
+            <th>ID персонажа</th>
+            <th>ID локации</th>
+            <th>Дата последнего визита</th>
+            <th>Действия</th>
+        </tr>
+        {% for pt in personagetransfer %}
+            <tr>
+                <td>{{ pt.personage.id }}</td>
+                <td>{{ pt.locations.id }}</td>
+                <td>{{ pt.date_last_visit }}</td>
+                <td>
+                    <a class="btn btn-default" href="{% url 'personagetransfer_detail' id=pt.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a class="btn btn-default" href="{% url 'personagetransfer_delete' id=pt.id %}"><span class="glyphicon glyphicon-remove"></span></a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{%  endblock %}
